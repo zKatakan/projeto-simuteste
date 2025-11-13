@@ -28,6 +28,5 @@ uvicorn app.main:app --reload
 pytest -q
 pytest --cov=app --cov-report=term-missing --cov-report=html
 # abrir htmlcov/index.html
-mutmut run
-mutmut results
+
 ```

@@ -1,0 +1,1208 @@
+2025-11-13 04:34:10,429 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 04:35:01,126 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 04:35:02,462 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 04:36:01,911 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 04:54:22,879 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 05:24:21,661 [INFO] taskmgr - Criando tarefa: title=Testar logging OK, project_id=1, assignee_id=None, due_date=None
+2025-11-13 05:24:21,750 [INFO] taskmgr - Tarefa criada com sucesso: id=5
+2025-11-13 05:24:47,287 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=1, assignee_id=None, due_date=2000-01-01
+2025-11-13 05:24:47,289 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 05:25:13,937 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=1, assignee_id=1, due_date=None
+2025-11-13 05:25:13,941 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 05:44:26,390 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:07:25,755 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,755 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,755 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,755 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,755 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,755 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,770 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,770 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [2]
+2025-11-13 06:07:25,771 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,771 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:07:25,771 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,771 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,776 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,776 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:07:25,776 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,781 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,781 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,781 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:07:25,781 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,781 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,787 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,787 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,787 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:07:25,787 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:07:25,787 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 06:07:25,787 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:07:25,787 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 06:07:25,787 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:07:25,787 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 06:07:25,787 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:07:25,787 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 06:07:25,799 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 06:07:25,799 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 06:07:25,799 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 06:07:25,803 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 06:07:25,803 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 06:07:25,803 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 06:07:25,803 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:07:25,803 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 06:07:25,803 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 06:07:25,803 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 06:07:25,803 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:07:25,812 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 06:07:25,812 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 06:07:25,812 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:07:25,812 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 06:07:25,819 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:07:25,819 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 06:07:25,819 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 06:07:25,819 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 06:07:25,819 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 06:07:25,824 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 06:07:25,824 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 06:07:25,824 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 06:07:25,824 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 06:07:25,824 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 06:07:25,830 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:07:25,830 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 06:15:11,187 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,187 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,187 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,187 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,196 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,196 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,196 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,196 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [2]
+2025-11-13 06:15:11,203 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,203 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:15:11,203 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,203 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,203 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,203 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:15:11,203 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,203 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,216 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,216 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 06:15:11,218 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,218 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,220 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,220 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,220 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,220 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,220 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 06:15:11,220 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 06:15:11,229 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 06:15:11,229 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:15:11,231 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 06:15:11,231 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:15:11,234 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 06:15:11,234 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:15:11,234 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 06:15:11,234 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 06:15:11,239 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 06:15:11,239 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 06:15:11,239 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 06:15:11,239 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 06:15:11,239 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 06:15:11,239 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:15:11,239 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 06:15:11,239 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 06:15:11,239 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 06:15:11,239 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 06:15:11,250 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 06:15:11,250 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 06:15:11,250 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:15:11,250 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 06:15:11,255 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:15:11,255 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 06:15:11,255 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 06:15:11,255 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 06:15:11,259 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 06:15:11,259 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 06:15:11,259 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 06:15:11,259 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 06:15:11,266 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 06:15:11,266 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 06:15:11,266 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 06:15:11,266 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 06:44:00,171 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:01,522 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:06,019 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:06,162 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:10,544 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:11,842 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=3, assignee_id=None, due_date=None
+2025-11-13 06:44:12,612 [INFO] taskmgr - Tarefa criada com sucesso: id=6
+2025-11-13 06:44:12,664 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:17,439 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:18,138 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=4, assignee_id=3, due_date=None
+2025-11-13 06:44:18,289 [INFO] taskmgr - Tarefa criada com sucesso: id=7
+2025-11-13 06:44:18,295 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:21,197 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:21,704 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=5, assignee_id=4, due_date=None
+2025-11-13 06:44:22,065 [INFO] taskmgr - Tarefa criada com sucesso: id=8
+2025-11-13 06:44:22,066 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:26,276 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:27,205 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=6, assignee_id=None, due_date=2000-01-01
+2025-11-13 06:44:27,205 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 06:44:27,207 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:34,265 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:35,476 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=7, assignee_id=5, due_date=None
+2025-11-13 06:44:35,931 [INFO] taskmgr - Tarefa criada com sucesso: id=9
+2025-11-13 06:44:35,935 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=7, assignee_id=5, due_date=None
+2025-11-13 06:44:35,935 [WARNING] taskmgr - User overload: usuário id=5 já possui 1 tarefas abertas (limite=1)
+2025-11-13 06:44:35,935 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:40,517 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:40,835 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=8, assignee_id=None, due_date=None
+2025-11-13 06:44:41,107 [INFO] taskmgr - Tarefa criada com sucesso: id=10
+2025-11-13 06:44:41,248 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:46,800 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:47,356 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=9, assignee_id=6, due_date=None
+2025-11-13 06:44:47,725 [INFO] taskmgr - Tarefa criada com sucesso: id=11
+2025-11-13 06:44:47,735 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:50,710 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:51,039 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=10, assignee_id=7, due_date=None
+2025-11-13 06:44:51,379 [INFO] taskmgr - Tarefa criada com sucesso: id=12
+2025-11-13 06:44:51,379 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=10, assignee_id=7, due_date=None
+2025-11-13 06:44:51,385 [WARNING] taskmgr - User overload: usuário id=7 já possui 1 tarefas abertas (limite=1)
+2025-11-13 06:44:51,395 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 06:44:53,897 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 06:44:54,378 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=11, assignee_id=8, due_date=None
+2025-11-13 06:44:54,537 [INFO] taskmgr - Tarefa criada com sucesso: id=13
+2025-11-13 06:44:54,544 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=11, assignee_id=8, due_date=None
+2025-11-13 06:44:54,544 [WARNING] taskmgr - User overload: usuário id=8 já possui 1 tarefas abertas (limite=1)
+2025-11-13 06:44:54,552 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:36:59,778 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,778 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,781 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,781 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,785 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,785 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,785 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,785 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [2]
+2025-11-13 07:36:59,785 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,785 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:36:59,791 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,793 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,793 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,793 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:36:59,793 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,793 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,793 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,801 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:36:59,801 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,801 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,804 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,804 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,804 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,804 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,810 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:36:59,810 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:36:59,814 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 07:36:59,814 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:36:59,815 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 07:36:59,815 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:36:59,818 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 07:36:59,818 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:36:59,821 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 07:36:59,821 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 07:36:59,821 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 07:36:59,821 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 07:36:59,826 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 07:36:59,826 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 07:36:59,826 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 07:36:59,826 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:36:59,831 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 07:36:59,831 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 07:36:59,834 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 07:36:59,834 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:36:59,834 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 07:36:59,834 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 07:36:59,834 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:36:59,834 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 07:36:59,841 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:36:59,842 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 07:36:59,842 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:36:59,842 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 07:36:59,842 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:36:59,842 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 07:36:59,849 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 07:36:59,850 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 07:36:59,851 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 07:36:59,851 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 07:36:59,851 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:36:59,855 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 07:37:02,182 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:02,303 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:03,807 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:03,921 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:05,398 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:05,491 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=16, assignee_id=None, due_date=None
+2025-11-13 07:37:05,611 [INFO] taskmgr - Tarefa criada com sucesso: id=19
+2025-11-13 07:37:05,611 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:06,952 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:07,141 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=17, assignee_id=11, due_date=None
+2025-11-13 07:37:07,233 [INFO] taskmgr - Tarefa criada com sucesso: id=20
+2025-11-13 07:37:07,233 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:08,862 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:09,081 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=18, assignee_id=12, due_date=None
+2025-11-13 07:37:09,178 [INFO] taskmgr - Tarefa criada com sucesso: id=21
+2025-11-13 07:37:09,195 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:10,608 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:10,732 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=19, assignee_id=None, due_date=2000-01-01
+2025-11-13 07:37:10,732 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 07:37:10,733 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:12,053 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:12,237 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=20, assignee_id=13, due_date=None
+2025-11-13 07:37:12,333 [INFO] taskmgr - Tarefa criada com sucesso: id=22
+2025-11-13 07:37:12,337 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=20, assignee_id=13, due_date=None
+2025-11-13 07:37:12,337 [WARNING] taskmgr - User overload: usuário id=13 já possui 1 tarefas abertas (limite=1)
+2025-11-13 07:37:12,337 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:13,832 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:13,993 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=21, assignee_id=None, due_date=None
+2025-11-13 07:37:14,111 [INFO] taskmgr - Tarefa criada com sucesso: id=23
+2025-11-13 07:37:14,254 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:15,773 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:16,025 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=22, assignee_id=14, due_date=None
+2025-11-13 07:37:16,122 [INFO] taskmgr - Tarefa criada com sucesso: id=24
+2025-11-13 07:37:16,131 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:17,726 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:17,953 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=23, assignee_id=15, due_date=None
+2025-11-13 07:37:18,034 [INFO] taskmgr - Tarefa criada com sucesso: id=25
+2025-11-13 07:37:18,034 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=23, assignee_id=15, due_date=None
+2025-11-13 07:37:18,034 [WARNING] taskmgr - User overload: usuário id=15 já possui 1 tarefas abertas (limite=1)
+2025-11-13 07:37:18,041 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:19,430 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:37:19,632 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=24, assignee_id=16, due_date=None
+2025-11-13 07:37:19,742 [INFO] taskmgr - Tarefa criada com sucesso: id=26
+2025-11-13 07:37:19,747 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=24, assignee_id=16, due_date=None
+2025-11-13 07:37:19,747 [WARNING] taskmgr - User overload: usuário id=16 já possui 1 tarefas abertas (limite=1)
+2025-11-13 07:37:19,756 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:37:20,733 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:37:20,738 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:37:20,738 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:37:20,881 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 07:37:20,881 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 07:37:20,881 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 07:37:20,881 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:37:20,881 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 07:37:20,881 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:37:20,891 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 07:37:20,891 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 07:37:20,891 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:37:20,891 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:37:20,891 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:37:20,891 [WARNING] taskmgr - User overload: usuário id=123 já possui 9 tarefas abertas (limite=1)
+2025-11-13 07:37:20,918 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:37:20,918 [WARNING] taskmgr - User overload: usuário id=123 já possui 10 tarefas abertas (limite=1)
+2025-11-13 07:37:20,918 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:37:20,921 [WARNING] taskmgr - User overload: usuário id=123 já possui 15 tarefas abertas (limite=1)
+2025-11-13 07:37:20,921 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:37:20,921 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 07:37:20,925 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:37:20,927 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 07:57:50,217 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,217 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,217 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,217 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,223 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,223 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,223 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,227 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [2]
+2025-11-13 07:57:50,227 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,227 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:57:50,232 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,232 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,232 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,232 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:57:50,237 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,237 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,240 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,240 [WARNING] taskmgr - Projeto id=1 NÃO pode ser arquivado: tarefas críticas pendentes: [1]
+2025-11-13 07:57:50,240 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,240 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,244 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,244 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,248 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,248 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,248 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:57:50,248 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:57:50,254 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 07:57:50,254 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:57:50,256 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 07:57:50,257 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:57:50,257 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 07:57:50,257 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:57:50,257 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 07:57:50,257 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 07:57:50,265 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 07:57:50,265 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 07:57:50,267 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 07:57:50,267 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 07:57:50,270 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 07:57:50,270 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:57:50,273 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 07:57:50,273 [WARNING] taskmgr - User overload: usuário id=1 já possui 10 tarefas abertas (limite=10)
+2025-11-13 07:57:50,273 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 07:57:50,273 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:57:50,277 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 07:57:50,277 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 07:57:50,277 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:57:50,277 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 07:57:50,281 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:57:50,283 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 07:57:50,283 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:57:50,283 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 07:57:50,287 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:57:50,287 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 07:57:50,289 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 07:57:50,289 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 07:57:50,289 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 07:57:50,289 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 07:57:50,289 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:57:50,289 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 07:57:52,487 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:57:52,618 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:57:54,057 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:57:54,197 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:57:55,624 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:57:55,737 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=29, assignee_id=None, due_date=None
+2025-11-13 07:57:55,830 [INFO] taskmgr - Tarefa criada com sucesso: id=32
+2025-11-13 07:57:55,836 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:57:57,257 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:57:57,497 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=30, assignee_id=20, due_date=None
+2025-11-13 07:57:57,618 [INFO] taskmgr - Tarefa criada com sucesso: id=33
+2025-11-13 07:57:57,618 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:57:59,247 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:57:59,452 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=31, assignee_id=21, due_date=None
+2025-11-13 07:57:59,539 [INFO] taskmgr - Tarefa criada com sucesso: id=34
+2025-11-13 07:57:59,547 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:00,877 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:00,965 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=32, assignee_id=None, due_date=2000-01-01
+2025-11-13 07:58:00,965 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 07:58:00,967 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:02,525 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:02,750 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=33, assignee_id=22, due_date=None
+2025-11-13 07:58:02,847 [INFO] taskmgr - Tarefa criada com sucesso: id=35
+2025-11-13 07:58:02,853 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=33, assignee_id=22, due_date=None
+2025-11-13 07:58:02,962 [INFO] taskmgr - Tarefa criada com sucesso: id=36
+2025-11-13 07:58:02,970 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:04,457 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:04,568 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=34, assignee_id=None, due_date=None
+2025-11-13 07:58:04,717 [INFO] taskmgr - Tarefa criada com sucesso: id=37
+2025-11-13 07:58:04,719 [INFO] taskmgr - Alterando status da task id=37 para DONE
+2025-11-13 07:58:04,719 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=37 com status DONE sem responsável
+2025-11-13 07:58:04,719 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:06,135 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:06,328 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=35, assignee_id=23, due_date=None
+2025-11-13 07:58:06,417 [INFO] taskmgr - Tarefa criada com sucesso: id=38
+2025-11-13 07:58:06,417 [INFO] taskmgr - Alterando status da task id=38 para DONE
+2025-11-13 07:58:06,517 [INFO] taskmgr - Status da task id=38 atualizado de DONE para DONE
+2025-11-13 07:58:06,517 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:08,187 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:08,513 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=36, assignee_id=24, due_date=None
+2025-11-13 07:58:08,637 [INFO] taskmgr - Tarefa criada com sucesso: id=39
+2025-11-13 07:58:08,641 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=36, assignee_id=24, due_date=None
+2025-11-13 07:58:08,773 [INFO] taskmgr - Tarefa criada com sucesso: id=40
+2025-11-13 07:58:08,777 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:10,112 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 07:58:10,297 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=37, assignee_id=25, due_date=None
+2025-11-13 07:58:10,381 [INFO] taskmgr - Tarefa criada com sucesso: id=41
+2025-11-13 07:58:10,388 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=37, assignee_id=25, due_date=None
+2025-11-13 07:58:10,470 [INFO] taskmgr - Tarefa criada com sucesso: id=42
+2025-11-13 07:58:10,474 [INFO] taskmgr - Alterando status da task id=41 para DONE
+2025-11-13 07:58:10,572 [INFO] taskmgr - Status da task id=41 atualizado de DONE para DONE
+2025-11-13 07:58:10,577 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 07:58:11,479 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:58:11,479 [INFO] taskmgr - Projeto id=1 pode ser arquivado: nenhuma tarefa crítica pendente
+2025-11-13 07:58:11,483 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 07:58:11,603 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 07:58:11,603 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 07:58:11,607 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 07:58:11,607 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:58:11,607 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 07:58:11,607 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:58:11,611 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 07:58:11,611 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 07:58:11,615 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:58:11,615 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:58:11,617 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:58:11,617 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 07:58:11,621 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:58:11,621 [WARNING] taskmgr - User overload: usuário id=123 já possui 10 tarefas abertas (limite=10)
+2025-11-13 07:58:11,623 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 07:58:11,625 [WARNING] taskmgr - User overload: usuário id=123 já possui 15 tarefas abertas (limite=10)
+2025-11-13 07:58:11,627 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 07:58:11,627 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 07:58:11,627 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 07:58:11,627 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 08:09:34,190 [INFO] taskmgr - Criando tarefa: title=T1, project_id=41, assignee_id=None, due_date=None
+2025-11-13 08:09:34,286 [INFO] taskmgr - Tarefa criada com sucesso: id=48
+2025-11-13 08:09:34,295 [INFO] taskmgr - Criando tarefa: title=T2, project_id=41, assignee_id=None, due_date=None
+2025-11-13 08:09:34,407 [INFO] taskmgr - Tarefa criada com sucesso: id=49
+2025-11-13 08:09:34,407 [INFO] taskmgr - Verificando se projeto id=41 pode ser arquivado
+2025-11-13 08:09:34,407 [INFO] taskmgr - Projeto 41 NÃO pode ser arquivado; tarefas críticas ainda abertas: [49]
+2025-11-13 08:09:34,535 [INFO] taskmgr - Criando tarefa: title=T, project_id=42, assignee_id=None, due_date=None
+2025-11-13 08:09:34,634 [INFO] taskmgr - Tarefa criada com sucesso: id=50
+2025-11-13 08:09:34,634 [INFO] taskmgr - Alterando status da task id=50 para DONE
+2025-11-13 08:09:34,634 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=50 com status DONE sem responsável
+2025-11-13 08:09:34,857 [INFO] taskmgr - Criando tarefa: title=X, project_id=43, assignee_id=None, due_date=None
+2025-11-13 08:09:34,980 [INFO] taskmgr - Tarefa criada com sucesso: id=51
+2025-11-13 08:09:34,988 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,988 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:34,988 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,988 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:34,988 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,988 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:34,996 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,996 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [2]
+2025-11-13 08:09:34,996 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,999 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:09:34,999 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,999 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:34,999 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:34,999 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:09:35,005 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,005 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:35,005 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,005 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:09:35,005 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,011 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:35,011 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,011 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:35,017 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,017 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:35,017 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:35,017 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:35,017 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:09:35,017 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:35,027 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 08:09:35,029 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:35,029 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:09:35,029 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:35,029 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:09:35,035 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 08:09:35,035 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:09:35,035 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 08:09:35,035 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 08:09:35,035 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 08:09:35,035 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:09:35,043 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:35,043 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:09:35,045 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:09:35,045 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:09:35,045 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:35,045 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 08:09:35,045 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 08:09:35,045 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:09:35,045 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:09:35,053 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:09:35,053 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:09:35,053 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:09:35,053 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:09:35,059 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:09:35,059 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:09:35,061 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 08:09:35,061 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 08:09:35,061 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 08:09:35,061 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 08:09:35,061 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:09:35,061 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:09:37,202 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:37,297 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:38,706 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:38,834 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:40,203 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:40,313 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=45, assignee_id=None, due_date=None
+2025-11-13 08:09:40,402 [INFO] taskmgr - Tarefa criada com sucesso: id=52
+2025-11-13 08:09:40,403 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:41,921 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:42,226 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=46, assignee_id=29, due_date=None
+2025-11-13 08:09:42,373 [INFO] taskmgr - Tarefa criada com sucesso: id=53
+2025-11-13 08:09:42,373 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:43,747 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:44,005 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=47, assignee_id=30, due_date=None
+2025-11-13 08:09:44,112 [INFO] taskmgr - Tarefa criada com sucesso: id=54
+2025-11-13 08:09:44,120 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:45,512 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:45,626 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=48, assignee_id=None, due_date=2000-01-01
+2025-11-13 08:09:45,626 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 08:09:45,626 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:47,026 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:47,241 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=49, assignee_id=31, due_date=None
+2025-11-13 08:09:47,337 [INFO] taskmgr - Tarefa criada com sucesso: id=55
+2025-11-13 08:09:47,337 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=49, assignee_id=31, due_date=None
+2025-11-13 08:09:47,337 [WARNING] taskmgr - User overload: usuário id=31 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:09:47,352 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:48,999 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:49,082 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=50, assignee_id=None, due_date=None
+2025-11-13 08:09:49,179 [INFO] taskmgr - Tarefa criada com sucesso: id=56
+2025-11-13 08:09:49,192 [INFO] taskmgr - Alterando status da task id=56 para DONE
+2025-11-13 08:09:49,192 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=56 com status DONE sem responsável
+2025-11-13 08:09:49,192 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:50,763 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:51,020 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=51, assignee_id=32, due_date=None
+2025-11-13 08:09:51,132 [INFO] taskmgr - Tarefa criada com sucesso: id=57
+2025-11-13 08:09:51,132 [INFO] taskmgr - Alterando status da task id=57 para DONE
+2025-11-13 08:09:51,212 [INFO] taskmgr - Status da task id=57 atualizado de DONE para DONE
+2025-11-13 08:09:51,212 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:52,556 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:52,748 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=52, assignee_id=33, due_date=None
+2025-11-13 08:09:52,868 [INFO] taskmgr - Tarefa criada com sucesso: id=58
+2025-11-13 08:09:52,868 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=52, assignee_id=33, due_date=None
+2025-11-13 08:09:52,868 [WARNING] taskmgr - User overload: usuário id=33 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:09:53,021 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:54,474 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:09:54,797 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=53, assignee_id=34, due_date=None
+2025-11-13 08:09:54,907 [INFO] taskmgr - Tarefa criada com sucesso: id=59
+2025-11-13 08:09:54,907 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=53, assignee_id=34, due_date=None
+2025-11-13 08:09:54,922 [WARNING] taskmgr - User overload: usuário id=34 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:09:54,922 [INFO] taskmgr - Alterando status da task id=59 para DONE
+2025-11-13 08:09:55,034 [INFO] taskmgr - Status da task id=59 atualizado de DONE para DONE
+2025-11-13 08:09:55,038 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:09:56,053 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:56,053 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:09:56,053 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:09:56,064 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [None]
+2025-11-13 08:09:56,216 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:09:56,216 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 08:09:56,216 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:09:56,216 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:56,216 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 08:09:56,216 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:56,222 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:09:56,222 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 08:09:56,222 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:09:56,222 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:09:56,227 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:09:56,227 [WARNING] taskmgr - User overload: usuário id=123 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:09:56,227 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:09:56,227 [WARNING] taskmgr - User overload: usuário id=123 já possui 2 tarefas abertas (limite=1)
+2025-11-13 08:09:56,227 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:09:56,227 [WARNING] taskmgr - User overload: usuário id=123 já possui 5 tarefas abertas (limite=1)
+2025-11-13 08:09:56,227 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:09:56,227 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:09:56,227 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:09:56,227 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 08:17:56,342 [INFO] taskmgr - Criando tarefa: title=T1, project_id=57, assignee_id=None, due_date=None
+2025-11-13 08:17:56,448 [INFO] taskmgr - Tarefa criada com sucesso: id=65
+2025-11-13 08:17:56,450 [INFO] taskmgr - Criando tarefa: title=T2, project_id=57, assignee_id=None, due_date=None
+2025-11-13 08:17:56,565 [INFO] taskmgr - Tarefa criada com sucesso: id=66
+2025-11-13 08:17:56,565 [INFO] taskmgr - Verificando se projeto id=57 pode ser arquivado
+2025-11-13 08:17:56,581 [INFO] taskmgr - Projeto 57 NÃO pode ser arquivado; tarefas críticas ainda abertas: [66]
+2025-11-13 08:17:56,692 [INFO] taskmgr - Criando tarefa: title=T, project_id=58, assignee_id=None, due_date=None
+2025-11-13 08:17:56,807 [INFO] taskmgr - Tarefa criada com sucesso: id=67
+2025-11-13 08:17:56,807 [INFO] taskmgr - Alterando status da task id=67 para DONE
+2025-11-13 08:17:56,807 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=67 com status DONE sem responsável
+2025-11-13 08:17:57,027 [INFO] taskmgr - Criando tarefa: title=X, project_id=59, assignee_id=None, due_date=None
+2025-11-13 08:17:57,146 [INFO] taskmgr - Tarefa criada com sucesso: id=68
+2025-11-13 08:17:57,154 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,154 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,154 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,154 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,159 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,159 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,159 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,163 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [2]
+2025-11-13 08:17:57,163 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,163 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:17:57,163 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,163 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,170 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:17:57,186 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:17:57,186 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:17:57,186 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:17:57,186 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 08:17:57,186 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:17:57,186 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:17:57,186 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:17:57,186 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:17:57,186 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 08:17:57,186 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:17:57,186 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 08:17:57,201 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 08:17:57,201 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 08:17:57,201 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:17:57,201 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:17:57,201 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:17:57,201 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:17:57,201 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:17:57,201 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:17:57,201 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 08:17:57,201 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 08:17:57,201 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:17:57,201 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:17:57,201 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:17:57,201 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:17:57,217 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:17:57,217 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:17:57,217 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:17:57,217 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:17:57,217 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 08:17:57,217 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 08:17:57,217 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 08:17:57,217 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 08:17:57,217 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:17:57,217 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:17:59,486 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:17:59,582 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:00,976 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:01,075 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:02,515 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:02,596 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=61, assignee_id=None, due_date=None
+2025-11-13 08:18:02,691 [INFO] taskmgr - Tarefa criada com sucesso: id=69
+2025-11-13 08:18:02,691 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:04,276 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:04,501 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=62, assignee_id=38, due_date=None
+2025-11-13 08:18:04,590 [INFO] taskmgr - Tarefa criada com sucesso: id=70
+2025-11-13 08:18:04,590 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:05,973 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:06,246 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=63, assignee_id=39, due_date=None
+2025-11-13 08:18:06,358 [INFO] taskmgr - Tarefa criada com sucesso: id=71
+2025-11-13 08:18:06,358 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:07,809 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:07,913 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=64, assignee_id=None, due_date=2000-01-01
+2025-11-13 08:18:07,913 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 08:18:07,913 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:09,338 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:09,559 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=65, assignee_id=40, due_date=None
+2025-11-13 08:18:09,639 [INFO] taskmgr - Tarefa criada com sucesso: id=72
+2025-11-13 08:18:09,648 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=65, assignee_id=40, due_date=None
+2025-11-13 08:18:09,648 [WARNING] taskmgr - User overload: usuário id=40 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:18:09,648 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:11,017 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:11,143 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=66, assignee_id=None, due_date=None
+2025-11-13 08:18:11,222 [INFO] taskmgr - Tarefa criada com sucesso: id=73
+2025-11-13 08:18:11,238 [INFO] taskmgr - Alterando status da task id=73 para DONE
+2025-11-13 08:18:11,238 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=73 com status DONE sem responsável
+2025-11-13 08:18:11,238 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:12,985 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:13,177 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=67, assignee_id=41, due_date=None
+2025-11-13 08:18:13,273 [INFO] taskmgr - Tarefa criada com sucesso: id=74
+2025-11-13 08:18:13,273 [INFO] taskmgr - Alterando status da task id=74 para DONE
+2025-11-13 08:18:13,385 [INFO] taskmgr - Status da task id=74 atualizado de DONE para DONE
+2025-11-13 08:18:13,385 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:14,875 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:15,167 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=68, assignee_id=42, due_date=None
+2025-11-13 08:18:15,273 [INFO] taskmgr - Tarefa criada com sucesso: id=75
+2025-11-13 08:18:15,273 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=68, assignee_id=43, due_date=None
+2025-11-13 08:18:15,368 [INFO] taskmgr - Tarefa criada com sucesso: id=76
+2025-11-13 08:18:15,384 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:16,760 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:18:17,110 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=69, assignee_id=44, due_date=None
+2025-11-13 08:18:17,224 [INFO] taskmgr - Tarefa criada com sucesso: id=77
+2025-11-13 08:18:17,224 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=69, assignee_id=45, due_date=None
+2025-11-13 08:18:17,336 [INFO] taskmgr - Tarefa criada com sucesso: id=78
+2025-11-13 08:18:17,336 [INFO] taskmgr - Alterando status da task id=77 para DONE
+2025-11-13 08:18:17,455 [INFO] taskmgr - Status da task id=77 atualizado de DONE para DONE
+2025-11-13 08:18:17,455 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:18:18,501 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:18:18,501 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:18:18,501 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:18:18,501 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [None]
+2025-11-13 08:18:18,612 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:18:18,612 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 08:18:18,612 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:18:18,619 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:18:18,619 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 08:18:18,619 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:18:18,619 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:18:18,619 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 08:18:18,619 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:18:18,619 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:18:18,627 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:18:18,627 [WARNING] taskmgr - User overload: usuário id=123 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:18:18,627 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:18:18,627 [WARNING] taskmgr - User overload: usuário id=123 já possui 2 tarefas abertas (limite=1)
+2025-11-13 08:18:18,627 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:18:18,627 [WARNING] taskmgr - User overload: usuário id=123 já possui 5 tarefas abertas (limite=1)
+2025-11-13 08:18:18,627 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:18:18,627 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:18:18,627 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:18:18,627 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 08:27:50,104 [INFO] taskmgr - Criando tarefa: title=T1, project_id=73, assignee_id=None, due_date=None
+2025-11-13 08:27:50,232 [INFO] taskmgr - Tarefa criada com sucesso: id=84
+2025-11-13 08:27:50,232 [INFO] taskmgr - Criando tarefa: title=T2, project_id=73, assignee_id=None, due_date=None
+2025-11-13 08:27:50,343 [INFO] taskmgr - Tarefa criada com sucesso: id=85
+2025-11-13 08:27:50,343 [INFO] taskmgr - Verificando se projeto id=73 pode ser arquivado
+2025-11-13 08:27:50,343 [INFO] taskmgr - Projeto 73 NÃO pode ser arquivado; tarefas críticas ainda abertas: [85]
+2025-11-13 08:27:50,487 [INFO] taskmgr - Criando tarefa: title=T, project_id=74, assignee_id=None, due_date=None
+2025-11-13 08:27:50,575 [INFO] taskmgr - Tarefa criada com sucesso: id=86
+2025-11-13 08:27:50,575 [INFO] taskmgr - Alterando status da task id=86 para DONE
+2025-11-13 08:27:50,583 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=86 com status DONE sem responsável
+2025-11-13 08:27:50,902 [INFO] taskmgr - Criando tarefa: title=X, project_id=75, assignee_id=None, due_date=None
+2025-11-13 08:27:50,998 [INFO] taskmgr - Tarefa criada com sucesso: id=87
+2025-11-13 08:27:51,023 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,023 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,025 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,028 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,030 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,030 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,030 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,033 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [2]
+2025-11-13 08:27:51,033 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,033 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:27:51,033 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,033 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,033 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,033 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:27:51,046 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 08:27:51,046 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,046 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,061 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:27:51,061 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:27:51,061 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:27:51,067 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:27:51,067 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 08:27:51,067 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:27:51,073 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:27:51,073 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:27:51,076 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:27:51,077 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 08:27:51,078 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:27:51,078 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 08:27:51,078 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 08:27:51,078 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 08:27:51,078 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:27:51,078 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:27:51,078 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 08:27:51,078 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:27:51,093 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 08:27:51,093 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:27:51,093 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 08:27:51,093 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 08:27:51,093 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:27:51,093 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:27:51,093 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:27:51,093 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:27:51,093 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:27:51,093 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:27:51,109 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:27:51,109 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 08:27:51,109 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 08:27:51,109 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 08:27:51,109 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 08:27:51,109 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 08:27:51,109 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:27:51,109 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 08:27:53,214 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:27:53,326 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:27:54,637 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:27:54,733 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:27:56,076 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:27:56,189 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=77, assignee_id=None, due_date=None
+2025-11-13 08:27:56,316 [INFO] taskmgr - Tarefa criada com sucesso: id=88
+2025-11-13 08:27:56,324 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:27:58,074 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:27:58,292 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=78, assignee_id=49, due_date=None
+2025-11-13 08:27:58,431 [INFO] taskmgr - Tarefa criada com sucesso: id=89
+2025-11-13 08:27:58,431 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:27:59,752 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:27:59,959 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=79, assignee_id=50, due_date=None
+2025-11-13 08:28:00,055 [INFO] taskmgr - Tarefa criada com sucesso: id=90
+2025-11-13 08:28:00,057 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:01,400 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:01,508 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=80, assignee_id=None, due_date=2000-01-01
+2025-11-13 08:28:01,508 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 08:28:01,508 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:02,903 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:03,138 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=81, assignee_id=51, due_date=None
+2025-11-13 08:28:03,255 [INFO] taskmgr - Tarefa criada com sucesso: id=91
+2025-11-13 08:28:03,257 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=81, assignee_id=51, due_date=None
+2025-11-13 08:28:03,257 [WARNING] taskmgr - User overload: usuário id=51 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:28:03,257 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:04,615 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:04,723 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=82, assignee_id=None, due_date=None
+2025-11-13 08:28:04,822 [INFO] taskmgr - Tarefa criada com sucesso: id=92
+2025-11-13 08:28:04,822 [INFO] taskmgr - Alterando status da task id=92 para DONE
+2025-11-13 08:28:04,822 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=92 com status DONE sem responsável
+2025-11-13 08:28:04,822 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:06,373 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:06,566 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=83, assignee_id=52, due_date=None
+2025-11-13 08:28:06,678 [INFO] taskmgr - Tarefa criada com sucesso: id=93
+2025-11-13 08:28:06,678 [INFO] taskmgr - Alterando status da task id=93 para DONE
+2025-11-13 08:28:06,805 [INFO] taskmgr - Status da task id=93 atualizado de DONE para DONE
+2025-11-13 08:28:06,805 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:08,183 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:08,504 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=84, assignee_id=53, due_date=None
+2025-11-13 08:28:08,632 [INFO] taskmgr - Tarefa criada com sucesso: id=94
+2025-11-13 08:28:08,632 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=84, assignee_id=54, due_date=None
+2025-11-13 08:28:08,745 [INFO] taskmgr - Tarefa criada com sucesso: id=95
+2025-11-13 08:28:08,745 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:10,090 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 08:28:10,375 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=85, assignee_id=55, due_date=None
+2025-11-13 08:28:10,472 [INFO] taskmgr - Tarefa criada com sucesso: id=96
+2025-11-13 08:28:10,479 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=85, assignee_id=56, due_date=None
+2025-11-13 08:28:10,588 [INFO] taskmgr - Tarefa criada com sucesso: id=97
+2025-11-13 08:28:10,588 [INFO] taskmgr - Alterando status da task id=96 para DONE
+2025-11-13 08:28:10,665 [INFO] taskmgr - Status da task id=96 atualizado de DONE para DONE
+2025-11-13 08:28:10,681 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 08:28:11,603 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:28:11,603 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 08:28:11,603 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 08:28:11,609 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [None]
+2025-11-13 08:28:11,703 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 08:28:11,703 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 08:28:11,703 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 08:28:11,703 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:28:11,703 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 08:28:11,703 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:28:11,703 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 08:28:11,715 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 08:28:11,715 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:28:11,715 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 08:28:11,715 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:28:11,715 [WARNING] taskmgr - User overload: usuário id=123 já possui 1 tarefas abertas (limite=1)
+2025-11-13 08:28:11,724 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:28:11,724 [WARNING] taskmgr - User overload: usuário id=123 já possui 2 tarefas abertas (limite=1)
+2025-11-13 08:28:11,724 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 08:28:11,724 [WARNING] taskmgr - User overload: usuário id=123 já possui 5 tarefas abertas (limite=1)
+2025-11-13 08:28:11,730 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 08:28:11,730 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 08:28:11,730 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 08:28:11,730 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 09:08:55,109 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 09:09:56,658 [INFO] taskmgr - Criando tarefa: title=string, project_id=0, assignee_id=0, due_date=2020-11-13
+2025-11-13 09:09:56,658 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=string, due_date=2020-11-13
+2025-11-13 09:11:18,280 [INFO] taskmgr - Verificando se projeto id=6 pode ser arquivado
+2025-11-13 09:11:18,280 [INFO] taskmgr - Projeto 6 pode ser arquivado
+2025-11-13 09:11:47,796 [INFO] taskmgr - Verificando se projeto id=12 pode ser arquivado
+2025-11-13 09:11:47,797 [INFO] taskmgr - Projeto 12 pode ser arquivado
+2025-11-13 09:54:13,351 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=1, assignee_id=None, due_date=None
+2025-11-13 09:54:13,933 [INFO] taskmgr - Tarefa criada com sucesso: id=103
+2025-11-13 09:54:45,430 [INFO] taskmgr - Alterando status da task id=103 para "DONE"
+2025-11-13 09:54:45,923 [INFO] taskmgr - Status da task id=103 atualizado de "DONE" para "DONE"
+2025-11-13 09:56:08,726 [INFO] taskmgr - Alterando status da task id=82 para "DONE"
+2025-11-13 09:56:09,266 [INFO] taskmgr - Status da task id=82 atualizado de "DONE" para "DONE"
+2025-11-13 09:57:16,445 [INFO] taskmgr - Criando tarefa: title=, project_id=1, assignee_id=None, due_date=None
+2025-11-13 09:57:16,999 [INFO] taskmgr - Tarefa criada com sucesso: id=104
+2025-11-13 09:57:30,226 [INFO] taskmgr - Alterando status da task id=104 para DONE
+2025-11-13 09:57:30,226 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=104 com status DONE sem responsável
+2025-11-13 09:58:50,241 [INFO] taskmgr - Criando tarefa: title=A, project_id=1, assignee_id=None, due_date=None
+2025-11-13 09:58:50,731 [INFO] taskmgr - Tarefa criada com sucesso: id=105
+2025-11-13 09:58:57,321 [INFO] taskmgr - Criando tarefa: title=A, project_id=1, assignee_id=None, due_date=None
+2025-11-13 09:58:57,448 [INFO] taskmgr - Tarefa criada com sucesso: id=106
+2025-11-13 09:59:21,662 [INFO] taskmgr - Criando tarefa: title=Primeira tarefa, project_id=1, assignee_id=1, due_date=None
+2025-11-13 09:59:21,662 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:14:22,541 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:20:13,749 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:21:21,175 [INFO] taskmgr - Criando tarefa: title=TAREFA TESTE, project_id=24112, assignee_id=24112, due_date=2025-11-13
+2025-11-13 10:21:21,316 [INFO] taskmgr - Tarefa criada com sucesso: id=107
+2025-11-13 10:23:35,242 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:23:51,123 [INFO] taskmgr - Criando tarefa: title=T1, project_id=89, assignee_id=None, due_date=None
+2025-11-13 10:23:51,220 [INFO] taskmgr - Tarefa criada com sucesso: id=108
+2025-11-13 10:23:51,228 [INFO] taskmgr - Criando tarefa: title=T2, project_id=89, assignee_id=None, due_date=None
+2025-11-13 10:23:51,321 [INFO] taskmgr - Tarefa criada com sucesso: id=109
+2025-11-13 10:23:51,329 [INFO] taskmgr - Verificando se projeto id=89 pode ser arquivado
+2025-11-13 10:23:51,329 [INFO] taskmgr - Projeto 89 NÃO pode ser arquivado; tarefas críticas ainda abertas: [109]
+2025-11-13 10:23:51,425 [INFO] taskmgr - Criando tarefa: title=T, project_id=90, assignee_id=None, due_date=None
+2025-11-13 10:23:51,512 [INFO] taskmgr - Tarefa criada com sucesso: id=110
+2025-11-13 10:23:51,514 [INFO] taskmgr - Alterando status da task id=110 para DONE
+2025-11-13 10:23:51,514 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=110 com status DONE sem responsável
+2025-11-13 10:23:51,702 [INFO] taskmgr - Criando tarefa: title=X, project_id=91, assignee_id=None, due_date=None
+2025-11-13 10:23:51,812 [INFO] taskmgr - Tarefa criada com sucesso: id=111
+2025-11-13 10:23:51,822 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,822 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,822 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,822 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,822 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,822 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,829 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,829 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [2]
+2025-11-13 10:23:51,831 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,831 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:23:51,831 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,831 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,836 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,836 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:23:51,836 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,836 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,841 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,841 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:23:51,843 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,843 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,843 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,843 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,848 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,850 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,850 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:23:51,850 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:23:51,850 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 10:23:51,850 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:23:51,857 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 10:23:51,857 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:23:51,860 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 10:23:51,860 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:23:51,860 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 10:23:51,860 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 10:23:51,865 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 10:23:51,865 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 10:23:51,865 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 10:23:51,865 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 10:23:51,865 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 10:23:51,865 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:23:51,872 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 10:23:51,872 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:23:51,872 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 10:23:51,876 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:23:51,876 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 10:23:51,876 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 10:23:51,879 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:23:51,879 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 10:23:51,882 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:23:51,882 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 10:23:51,884 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:23:51,884 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 10:23:51,886 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:23:51,886 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 10:23:51,886 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 10:23:51,886 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 10:23:51,893 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 10:23:51,893 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 10:23:51,893 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:23:51,893 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 10:23:53,896 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:23:54,010 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:23:55,482 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:23:55,600 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:23:56,929 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:23:57,045 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=93, assignee_id=None, due_date=None
+2025-11-13 10:23:57,134 [INFO] taskmgr - Tarefa criada com sucesso: id=112
+2025-11-13 10:23:57,138 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:23:58,717 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:23:58,921 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=94, assignee_id=60, due_date=None
+2025-11-13 10:23:59,021 [INFO] taskmgr - Tarefa criada com sucesso: id=113
+2025-11-13 10:23:59,021 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:00,350 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:00,534 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=95, assignee_id=61, due_date=None
+2025-11-13 10:24:00,628 [INFO] taskmgr - Tarefa criada com sucesso: id=114
+2025-11-13 10:24:00,636 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:01,973 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:02,092 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=96, assignee_id=None, due_date=2000-01-01
+2025-11-13 10:24:02,092 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 10:24:02,092 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:03,396 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:03,590 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=97, assignee_id=62, due_date=None
+2025-11-13 10:24:03,679 [INFO] taskmgr - Tarefa criada com sucesso: id=115
+2025-11-13 10:24:03,682 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=97, assignee_id=62, due_date=None
+2025-11-13 10:24:03,682 [WARNING] taskmgr - User overload: usuário id=62 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:24:03,682 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:05,002 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:05,091 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=98, assignee_id=None, due_date=None
+2025-11-13 10:24:05,190 [INFO] taskmgr - Tarefa criada com sucesso: id=116
+2025-11-13 10:24:05,192 [INFO] taskmgr - Alterando status da task id=116 para DONE
+2025-11-13 10:24:05,192 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=116 com status DONE sem responsável
+2025-11-13 10:24:05,192 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:07,008 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:07,190 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=99, assignee_id=63, due_date=None
+2025-11-13 10:24:07,279 [INFO] taskmgr - Tarefa criada com sucesso: id=117
+2025-11-13 10:24:07,281 [INFO] taskmgr - Alterando status da task id=117 para DONE
+2025-11-13 10:24:07,366 [INFO] taskmgr - Status da task id=117 atualizado de DONE para DONE
+2025-11-13 10:24:07,366 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:08,719 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:09,004 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=100, assignee_id=64, due_date=None
+2025-11-13 10:24:09,087 [INFO] taskmgr - Tarefa criada com sucesso: id=118
+2025-11-13 10:24:09,087 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=100, assignee_id=65, due_date=None
+2025-11-13 10:24:09,177 [INFO] taskmgr - Tarefa criada com sucesso: id=119
+2025-11-13 10:24:09,183 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:10,535 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:24:10,825 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=101, assignee_id=66, due_date=None
+2025-11-13 10:24:10,912 [INFO] taskmgr - Tarefa criada com sucesso: id=120
+2025-11-13 10:24:10,913 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=101, assignee_id=67, due_date=None
+2025-11-13 10:24:11,115 [INFO] taskmgr - Tarefa criada com sucesso: id=121
+2025-11-13 10:24:11,116 [INFO] taskmgr - Alterando status da task id=120 para DONE
+2025-11-13 10:24:11,234 [INFO] taskmgr - Status da task id=120 atualizado de DONE para DONE
+2025-11-13 10:24:11,236 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:24:12,125 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:24:12,134 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:24:12,134 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:24:12,134 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [None]
+2025-11-13 10:24:12,236 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 10:24:12,236 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 10:24:12,236 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 10:24:12,236 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:24:12,236 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 10:24:12,236 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:24:12,245 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 10:24:12,245 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 10:24:12,245 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:24:12,245 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:24:12,245 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:24:12,245 [WARNING] taskmgr - User overload: usuário id=123 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:24:12,245 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:24:12,245 [WARNING] taskmgr - User overload: usuário id=123 já possui 2 tarefas abertas (limite=1)
+2025-11-13 10:24:12,255 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:24:12,255 [WARNING] taskmgr - User overload: usuário id=123 já possui 5 tarefas abertas (limite=1)
+2025-11-13 10:24:12,257 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:24:12,257 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 10:24:12,257 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:24:12,257 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS
+2025-11-13 10:27:13,709 [INFO] taskmgr - Criando tarefa: title=T1, project_id=105, assignee_id=None, due_date=None
+2025-11-13 10:27:13,799 [INFO] taskmgr - Tarefa criada com sucesso: id=127
+2025-11-13 10:27:13,805 [INFO] taskmgr - Criando tarefa: title=T2, project_id=105, assignee_id=None, due_date=None
+2025-11-13 10:27:13,885 [INFO] taskmgr - Tarefa criada com sucesso: id=128
+2025-11-13 10:27:13,903 [INFO] taskmgr - Verificando se projeto id=105 pode ser arquivado
+2025-11-13 10:27:13,903 [INFO] taskmgr - Projeto 105 NÃO pode ser arquivado; tarefas críticas ainda abertas: [128]
+2025-11-13 10:27:14,034 [INFO] taskmgr - Criando tarefa: title=T, project_id=106, assignee_id=None, due_date=None
+2025-11-13 10:27:14,143 [INFO] taskmgr - Tarefa criada com sucesso: id=129
+2025-11-13 10:27:14,143 [INFO] taskmgr - Alterando status da task id=129 para DONE
+2025-11-13 10:27:14,143 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=129 com status DONE sem responsável
+2025-11-13 10:27:14,330 [INFO] taskmgr - Criando tarefa: title=X, project_id=107, assignee_id=None, due_date=None
+2025-11-13 10:27:14,427 [INFO] taskmgr - Tarefa criada com sucesso: id=130
+2025-11-13 10:27:14,445 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,445 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [2]
+2025-11-13 10:27:14,458 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:27:14,458 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,458 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,474 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,474 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:27:14,474 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,474 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,474 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,483 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [1]
+2025-11-13 10:27:14,486 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,486 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,490 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,490 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,490 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,490 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,496 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:14,496 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:14,496 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 10:27:14,496 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:14,496 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-14
+2025-11-13 10:27:14,496 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:14,508 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-13
+2025-11-13 10:27:14,508 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:14,512 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-12
+2025-11-13 10:27:14,512 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-12
+2025-11-13 10:27:14,514 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2025-11-03
+2025-11-13 10:27:14,514 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2025-11-03
+2025-11-13 10:27:14,514 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=2024-11-13
+2025-11-13 10:27:14,514 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Task, due_date=2024-11-13
+2025-11-13 10:27:14,522 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 10:27:14,522 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:14,526 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=1, due_date=None
+2025-11-13 10:27:14,526 [WARNING] taskmgr - User overload: usuário id=1 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:27:14,526 [INFO] taskmgr - Criando tarefa: title=Task, project_id=None, assignee_id=None, due_date=None
+2025-11-13 10:27:14,526 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:14,535 [INFO] taskmgr - Alterando status da task id=123 para DONE
+2025-11-13 10:27:14,535 [ERROR] taskmgr - Tentativa de alterar status de task inexistente: id=123
+2025-11-13 10:27:14,538 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:27:14,538 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 10:27:14,538 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:27:14,538 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 10:27:14,538 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:27:14,538 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 10:27:14,548 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:27:14,548 [INFO] taskmgr - Status da task id=1 atualizado de IN_PROGRESS para IN_PROGRESS
+2025-11-13 10:27:14,550 [INFO] taskmgr - Alterando status da task id=1 para ON_HOLD
+2025-11-13 10:27:14,550 [INFO] taskmgr - Status da task id=1 atualizado de ON_HOLD para ON_HOLD
+2025-11-13 10:27:14,556 [INFO] taskmgr - Alterando status da task id=1 para OPEN
+2025-11-13 10:27:14,556 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para OPEN
+2025-11-13 10:27:14,556 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:27:14,556 [INFO] taskmgr - Status da task id=1 atualizado de DONE para DONE
+2025-11-13 10:27:16,534 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:16,663 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:17,999 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:18,135 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:19,452 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:19,582 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=109, assignee_id=None, due_date=None
+2025-11-13 10:27:19,671 [INFO] taskmgr - Tarefa criada com sucesso: id=131
+2025-11-13 10:27:19,689 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:21,119 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:21,368 [INFO] taskmgr - Criando tarefa: title=Tarefa com responsável, project_id=110, assignee_id=71, due_date=None
+2025-11-13 10:27:21,480 [INFO] taskmgr - Tarefa criada com sucesso: id=132
+2025-11-13 10:27:21,480 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:22,891 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:23,078 [INFO] taskmgr - Criando tarefa: title=Tarefa teste, project_id=111, assignee_id=72, due_date=None
+2025-11-13 10:27:23,163 [INFO] taskmgr - Tarefa criada com sucesso: id=133
+2025-11-13 10:27:23,163 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:24,502 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:24,596 [INFO] taskmgr - Criando tarefa: title=Data inválida, project_id=112, assignee_id=None, due_date=2000-01-01
+2025-11-13 10:27:24,596 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=Data inválida, due_date=2000-01-01
+2025-11-13 10:27:24,596 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:25,904 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:26,100 [INFO] taskmgr - Criando tarefa: title=Limite teste 1, project_id=113, assignee_id=73, due_date=None
+2025-11-13 10:27:26,193 [INFO] taskmgr - Tarefa criada com sucesso: id=134
+2025-11-13 10:27:26,193 [INFO] taskmgr - Criando tarefa: title=Limite teste 2, project_id=113, assignee_id=73, due_date=None
+2025-11-13 10:27:26,193 [WARNING] taskmgr - User overload: usuário id=73 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:27:26,193 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:27,534 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:27,631 [INFO] taskmgr - Criando tarefa: title=Sem responsável, project_id=114, assignee_id=None, due_date=None
+2025-11-13 10:27:27,744 [INFO] taskmgr - Tarefa criada com sucesso: id=135
+2025-11-13 10:27:27,744 [INFO] taskmgr - Alterando status da task id=135 para DONE
+2025-11-13 10:27:27,744 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=135 com status DONE sem responsável
+2025-11-13 10:27:27,759 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:29,379 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:29,618 [INFO] taskmgr - Criando tarefa: title=Com responsável, project_id=115, assignee_id=74, due_date=None
+2025-11-13 10:27:29,743 [INFO] taskmgr - Tarefa criada com sucesso: id=136
+2025-11-13 10:27:29,743 [INFO] taskmgr - Alterando status da task id=136 para DONE
+2025-11-13 10:27:29,871 [INFO] taskmgr - Status da task id=136 atualizado de DONE para DONE
+2025-11-13 10:27:29,887 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:31,246 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:31,551 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=116, assignee_id=75, due_date=None
+2025-11-13 10:27:31,630 [INFO] taskmgr - Tarefa criada com sucesso: id=137
+2025-11-13 10:27:31,643 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=116, assignee_id=76, due_date=None
+2025-11-13 10:27:31,744 [INFO] taskmgr - Tarefa criada com sucesso: id=138
+2025-11-13 10:27:31,758 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:33,121 [INFO] taskmgr - API iniciada (startup)
+2025-11-13 10:27:33,421 [INFO] taskmgr - Criando tarefa: title=Tarefa 1, project_id=117, assignee_id=77, due_date=None
+2025-11-13 10:27:33,506 [INFO] taskmgr - Tarefa criada com sucesso: id=139
+2025-11-13 10:27:33,506 [INFO] taskmgr - Criando tarefa: title=Tarefa 2, project_id=117, assignee_id=78, due_date=None
+2025-11-13 10:27:33,597 [INFO] taskmgr - Tarefa criada com sucesso: id=140
+2025-11-13 10:27:33,597 [INFO] taskmgr - Alterando status da task id=139 para DONE
+2025-11-13 10:27:33,678 [INFO] taskmgr - Status da task id=139 atualizado de DONE para DONE
+2025-11-13 10:27:33,678 [INFO] taskmgr - API finalizada (shutdown)
+2025-11-13 10:27:34,601 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:34,601 [INFO] taskmgr - Projeto 1 pode ser arquivado
+2025-11-13 10:27:34,601 [INFO] taskmgr - Verificando se projeto id=1 pode ser arquivado
+2025-11-13 10:27:34,606 [INFO] taskmgr - Projeto 1 NÃO pode ser arquivado; tarefas críticas ainda abertas: [None]
+2025-11-13 10:27:34,710 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-12
+2025-11-13 10:27:34,710 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-12
+2025-11-13 10:27:34,715 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-13
+2025-11-13 10:27:34,715 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:34,718 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-18
+2025-11-13 10:27:34,718 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:34,718 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=None, due_date=2025-11-03
+2025-11-13 10:27:34,718 [WARNING] taskmgr - Tentativa de criar tarefa com due_date no passado: title=x, due_date=2025-11-03
+2025-11-13 10:27:34,726 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:27:34,726 [INFO] taskmgr - Tarefa criada com sucesso: id=1
+2025-11-13 10:27:34,726 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:27:34,726 [WARNING] taskmgr - User overload: usuário id=123 já possui 1 tarefas abertas (limite=1)
+2025-11-13 10:27:34,726 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:27:34,726 [WARNING] taskmgr - User overload: usuário id=123 já possui 2 tarefas abertas (limite=1)
+2025-11-13 10:27:34,726 [INFO] taskmgr - Criando tarefa: title=x, project_id=1, assignee_id=123, due_date=None
+2025-11-13 10:27:34,726 [WARNING] taskmgr - User overload: usuário id=123 já possui 5 tarefas abertas (limite=1)
+2025-11-13 10:27:34,726 [INFO] taskmgr - Alterando status da task id=1 para DONE
+2025-11-13 10:27:34,741 [WARNING] taskmgr - Regra violada: tentativa de concluir task id=1 com status DONE sem responsável
+2025-11-13 10:27:34,741 [INFO] taskmgr - Alterando status da task id=1 para IN_PROGRESS
+2025-11-13 10:27:34,741 [INFO] taskmgr - Status da task id=1 atualizado de OPEN para IN_PROGRESS

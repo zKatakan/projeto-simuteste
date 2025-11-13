@@ -1,0 +1,48 @@
+[project]
+name = "taskmgr"
+version = "0.1.0"
+description = "Gerenciador de Tarefas para projeto de Simulação e Teste"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = [".", "app"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+
+# ============================
+#       COVERAGE
+# ============================
+[tool.coverage.run]
+source = ["app"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+
+# ============================
+#        MUTMUT
+# ============================
+[tool.mutmut]
+# Comando usado para rodar os testes de mutação
+runner = "python -m pytest"
+
+# Módulos principais onde mutação será aplicada
+# (cumpre o requisito de 3 módulos do slide)
+paths_to_mutate = """
+app/services/task_service.py
+app/services/project_service.py
+app/repositories/task_repo.py
+"""
+
+# Onde ficam os testes do projeto
+tests_dir = "tests"
+
+# Não precisa criar cópia dos arquivos mutated
+backup = false
+
+# Opcional: deixar mais rápido ignorando arquivos não-Python
+exclude = """
+*/__init__.py
+"""

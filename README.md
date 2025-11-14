@@ -47,10 +47,8 @@ taskmgr/
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+pip install -r requirements.txt
 ```
-
-(O prompt deve ficar com prefixo `(.venv)`.)
-
 
 ---
 

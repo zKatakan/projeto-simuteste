@@ -1,6 +1,6 @@
 # Task Manager — Simulação e Teste
 
-API REST em FastAPI + SQLite para cumprir os requisitos do projeto (CRUDs, regras de negócio, filtros/ordenação, exceptions, logging, config externa, I/O de arquivos) e a bateria de testes (unit, integração, funcionais, cobertura ≥80% e mutação com mutmut).
+API REST em FastAPI + SQLite para cumprir os requisitos do projeto (CRUDs, regras de negócio, filtros/ordenação, exceptions, logging, config externa, I/O de arquivos) e a bateria de testes (unit, integração, funcionais, cobertura ≥80%).
 
 ## Como rodar
 ```bash

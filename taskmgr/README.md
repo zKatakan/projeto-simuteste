@@ -5,12 +5,12 @@ API REST em FastAPI + SQLite para cumprir os requisitos do projeto (CRUDs, regra
 ## Como rodar
 ```bash
 python -m venv .venv
+pip install -r requirements.txt
 # Windows: .venv\Scripts\activate
 # Linux/macOS:
 source .venv/bin/activate
 pip install -U pip
-pip install fastapi uvicorn sqlmodel pydantic-settings python-multipart
-pip install pytest pytest-asyncio httpx pytest-cov mutmut
+pip install -r requirements.txt
 cp .env.example .env
 uvicorn app.main:app --reload
 ```
